@@ -1,3 +1,5 @@
+require "Bike"
+
 class DockingStation
 
     def initialize
@@ -6,7 +8,6 @@ class DockingStation
 
     def release_bike
         @bike_count -= 1
-
+        return Bike.new
     end
-
 end
