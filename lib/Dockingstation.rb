@@ -1,4 +1,4 @@
-class Dockingstation
+class DockingStation
 
     def initialize
         @bike_count = 1
@@ -6,7 +6,7 @@ class Dockingstation
 
     def release_bike
         @bike_count -= 1
-        
+
     end
 
 end
